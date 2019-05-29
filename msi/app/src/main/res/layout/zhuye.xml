@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/add_shu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点击添加书目"/>
+    <Button
+        android:id="@+id/delete_shu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="删除书目"/>
+    <Button
+        android:id="@+id/book"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查询列表"/>
+
+    <Button
+        android:id="@+id/save_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="存储个人消息"/>
+
+    <Button
+        android:id="@+id/get_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查看个人信息"/>
+
+    <Button
+        android:id="@+id/goto_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="返回登录界面"/>
+
+    <Button
+        android:id="@+id/create_database"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点击创建数据库"/>
+
+
+
+</LinearLayout>
